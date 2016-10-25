@@ -5,4 +5,24 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vinet.eugenie.pixtrip.MapsActivity" />
+    tools:context="vinet.eugenie.pixtrip.MapsActivity">
+
+
+    <ImageButton
+        android:src = "@drawable/android_camera1"
+        android:adjustViewBounds="true"
+        android:layout_width = "60dp"
+        android:layout_height = "60dp"
+        android:layout_gravity = "left|top"
+        android:padding = "10dp"
+        android:layout_marginTop= "10dp"
+        android:paddingLeft="10dp"
+        android:onClick="startPhotoActivityByButton"
+        />
+
+</fragment>
+
+
+
+
+
